@@ -1,0 +1,1 @@
+Current goal is to recreate the Google homepage. It does not need to be functional but the purpose is to learn to create a layout using CSS.
