@@ -44,6 +44,11 @@ table {
 
 /* CSS RESET ABOVE HERE */
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222 ;
+    box-sizing: border-box;
+}
 .navbar {
     position: fixed ;
     top: 0 ;
@@ -62,21 +67,23 @@ table {
     float: left ;
     display: block ;
     padding: 30px 10px ;
-    font-size: 16px ;
+    font-size: 14px ;
 }
 
 .r-navbar-container-items a {
     float: right ;
     display: block ;
     padding: 30px 10px ;
-    font-size: 16px ;
+    font-size: 14px ;
 }
 
 .footerbox {
     position: fixed ;
     bottom: 0 ;
     width: 100% ;
-    background-color: rgb(220, 220, 220)
+    background-color: rgb(233, 233, 233) ;
+    border-top: rgb(212, 212, 212) solid;
+    border-width: 1px;
 }
 
 .l-footerbox-container {
@@ -93,6 +100,7 @@ table {
     display: block ;
     text-align: center ;
     padding: 15px 10px ;
+    font-size: 14px ;
 }
 
 .r-footerbox-container-items a {
@@ -100,4 +108,120 @@ table {
     display: block ;
     text-align: center ;
     padding: 15px 10px ;
+    font-size: 14px ;
+}
+
+
+
+.gimage {
+    display: block;
+    position: relative ;
+    text-align: center;
+    margin-top: 175px ;
+    padding-right: 70px;
+}
+
+.searchbar {
+    display: block;
+    position: relative ;
+    text-align: center ;
+    margin-top: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 50px;
+    box-shadow: 0 0 5px 3px lightgray;
+    border-radius: 30px;
+}
+
+.searchbar img {
+    display: block;
+    float: left;
+    width: 40px ;
+    height: 30px ;
+    padding-top: 9px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+}
+
+input {
+    display: block;
+    height: 35px ;
+    width: 85%;
+    margin: 0 auto ;
+    padding-top: 6px;
+    border: none ;
+    font-size: 16px ;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+#signin {
+    background-color: rgb(29, 139, 248) ;
+    color: white ;
+    padding: 10px;
+    margin-top: 20px ;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#menuimg {
+    height: 15px ;
+    width: 15px ;
+    padding-right: 8px;
+}
+
+.buttonplace {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttonstyles {
+    margin-right: 20px;
+}
+
+/* Button Reset CSS Below Here*/
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* Button Reset CSS Above Here*/
+
+button {
+    background-color: rgb(240, 240, 240) ;
+    width: 150px;
+    height: 40px;
+    color: rgb(80, 80, 80);
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(244, 244, 244) ;
+    width: 150px;
+    height: 40px;
+    color: black;
+    border: solid rgb(182, 182, 182);
+    border-width: 1px;
+    box-shadow: 0 0 3px 1px lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
